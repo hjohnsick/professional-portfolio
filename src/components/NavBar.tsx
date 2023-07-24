@@ -30,6 +30,7 @@ export const NavBar = () => {
             </Typography>
             <Stack direction={{ sm: "column", md: "row" }} spacing={3}>
               <Link
+                href="#projects"
                 color="#9ED8DE"
                 fontFamily="Chela One"
                 fontSize="26px"
@@ -46,6 +47,7 @@ export const NavBar = () => {
                 Peer Reviews
               </Link>
               <Link
+                href="#recognition"
                 color="#9ED8DE"
                 fontFamily="Chela One"
                 fontSize="26px"
