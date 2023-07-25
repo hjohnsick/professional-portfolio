@@ -43,31 +43,17 @@ export const DrawerComponent = () => {
                 fontSize: "26px",
               }}
             >
-              Peer Reviews
-            </ListItemText>
-          </ListItem>
-          <ListItem onClick={() => setOpenDrawer(false)}>
-            <ListItemText
-              disableTypography={true}
-              sx={{
-                color: "#9ED8DE",
-                fontFamily: "Chela One",
-                fontSize: "26px",
-              }}
-            >
-              Recognition
-            </ListItemText>
-          </ListItem>
-          <ListItem onClick={() => setOpenDrawer(false)}>
-            <ListItemText
-              disableTypography={true}
-              sx={{
-                color: "#9ED8DE",
-                fontFamily: "Chela One",
-                fontSize: "26px",
-              }}
-            >
-              Resume
+              <Link
+                href="#recognition"
+                underline="hover"
+                sx={{
+                  color: "#9ED8DE",
+                  fontFamily: "Chela One",
+                  fontSize: "26px",
+                }}
+              >
+                Recognition
+              </Link>
             </ListItemText>
           </ListItem>
         </List>

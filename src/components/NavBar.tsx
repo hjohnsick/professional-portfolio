@@ -39,14 +39,6 @@ export const NavBar = () => {
                 Projects
               </Link>
               <Link
-                color="#9ED8DE"
-                fontFamily="Chela One"
-                fontSize="26px"
-                underline="hover"
-              >
-                Peer Reviews
-              </Link>
-              <Link
                 href="#recognition"
                 color="#9ED8DE"
                 fontFamily="Chela One"
@@ -54,14 +46,6 @@ export const NavBar = () => {
                 underline="hover"
               >
                 Recognition
-              </Link>
-              <Link
-                color="#9ED8DE"
-                fontFamily="Chela One"
-                fontSize="26px"
-                underline="hover"
-              >
-                Resume
               </Link>
             </Stack>
           </>
