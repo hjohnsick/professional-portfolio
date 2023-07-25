@@ -1,5 +1,5 @@
 import { Stack, Typography, Box, Link } from "@mui/material"
-import hero from "/hero.png"
+import hero from "../assets/hero.png"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import MailOutlineIcon from "@mui/icons-material/MailOutline"
 

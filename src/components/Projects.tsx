@@ -1,6 +1,6 @@
 import { Box, Link, Stack, Typography } from "@mui/material"
-import santander from "/santander.png"
-import refer from "/refer.png"
+import santander from "../assets/santander.png"
+import refer from "../assets/refer.png"
 import { BasicCard } from "./BasicCard"
 
 export const Projects = () => {

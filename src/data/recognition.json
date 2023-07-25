@@ -1,29 +1,29 @@
 [
   {
-    "image": "../EagleEye.png"
+    "image": "src/assets/EagleEye.png"
   },
   {
-    "image": "../EyeForDetail.png"
+    "image": "src/assets/EyeForDetail.png"
   },
   {
-    "image": "../Bootcamp.png"
+    "image": "src/assets/Bootcamp.png"
   },
   {
-    "image": "../DoTheRightThing.png"
+    "image": "src/assets/DoTheRightThing.png"
   },
   {
-    "image": "../Mentor.png"
+    "image": "src/assets/Mentor.png"
   },
   {
-    "image": "../HLBPLaunch.png"
+    "image": "src/assets/HLBPLaunch.png"
   },
   {
-    "image": "../HLBPProduction.png"
+    "image": "src/assets/HLBPProduction.png"
   },
   {
-    "image": "../MyAccess.png"
+    "image": "src/assets/MyAccess.png"
   },
   {
-    "image": "../AmericaSavesWeek.png"
+    "image": "src/assets/AmericaSavesWeek.png"
   }
 ]
