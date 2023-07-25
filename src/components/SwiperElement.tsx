@@ -2,26 +2,17 @@
 import { register } from "swiper/element/bundle"
 // register Swiper custom elements
 register()
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react"
-
-// Import Swiper styles
 import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/navigation"
-
 import "../styles.css"
-
-// import required modules
 import { Pagination, Navigation } from "swiper/modules"
-
-import { SliderData } from "../interfaces"
 import { Box } from "@mui/material"
 import { useIsInViewport } from "../Hooks/useIsInViewport"
 
 type Props = {
-  slides: SliderData[]
+  slides: string[]
 }
 
 export const SwiperElement = ({ slides }: Props) => {
@@ -39,12 +30,12 @@ export const SwiperElement = ({ slides }: Props) => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {slides.map((slide: { image: string }) => (
-          <SwiperSlide>
+        {slides.map((slide) => (
+          <SwiperSlide key={slide}>
             <Box>
               <Box
                 component="img"
-                src={slide.image}
+                src={slide}
                 alt=""
                 height="100%"
                 width="100%"
